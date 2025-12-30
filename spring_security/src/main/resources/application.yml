@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring_security
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test_code?characterEncoding=utf-8
+    username: root
+    password: root
+mybatis:
+  mapper-locations: classpath:com/lglstudy/spring_security/mapper/*.xml
